@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Final Project</title>
+		<link rel="stylesheet" type="text/css" href="./css/style_shopping.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+		<script src="./js/jquery-3.3.1.js"></script>
+	
+	</head>
+	<body>
+		<div class="top">
+			<img src="./img/logo.png" id="logo">
+			<form id="search-form">
+				<input type="text" name="search" placeholder="Search Here......">
+				<button type="submit" id="search-icon"><i class="fas fa-search"></i></button>
+				<div class="cart">
+					<span><i class="fas fa-shopping-cart"></i></span>
+					<!-- <span id="item-count">0</span><Span> items</Span> -->
+				</div>
+			</form>
+		</div>
+		<nav id="nav-bar">
+				<ul>
+					<li><i class="fas fa-home"></i><a href="./home.html" title="Home">HOME</a></li>
+					<li><i class="fas fa-tags"></i><a href="#" title="Shopping" id="active">SHOPPPING</a></li>
+					<li><i class="fas fa-blog"></i><a href="./blog.html" title="Blog">BLOG</a></li>
+					<li><i class="far fa-address-card"></i><a href="./aboutus.html" title="AboutUs">ABOUT US</a></li>
+					<li id="logout"><i class="fas fa-sign-out-alt"></i><a href="#" title="Login">LOG OUT</a></li>
+					
+				</ul>
+		</nav>
+		<div class="side-menu">
+			<h2 id="all-products"><i class="fas fa-bars"></i> Categories</h2>
+			<ul>
+				<li class="categorie" id="2"><i class="fas fa-male"></i> MEN </li>
+				<li  class="categorie" id="3"><i class="fas fa-female"></i> WOMEN </li>
+				<li  class="categorie" id="4"><i class="fas fa-child"></i> KIDS </li>
+			</ul>
+		</div>
+		<div class="slider">
+			<div class="slides">
+				<div class="slide1">
+					<img src="./img/slide_img1.png" class="img1">
+				</div>
+				<div class="slide2">
+					<img src="./img/slide_img2.png" class="img2">
+				</div>
+				<div class="slide3">
+					<img src="./img/slide_img3.png" class="img3">
+				</div>
+				<div class="slide1">
+					<img src="./img/slide_img1.png" class="img1">
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
+		<h1 id="title">Products</h1>
+			<!-- <section id="boxes"> -->
+		<div class="container">
+			<div class="men">
+
+			</div>
+			<div class="women">
+				
+				
+				
+			</div>
+			<div class="children">
+
+
+			</div>
+		</div>
+			
+		<br>	
+		<div class='cart-wrapper'>
+		<h2 class="header-cart">CART</h2>
+		<div class="container-cart">
+			
+			<div class="cart-row">
+				<span class="cart-item">Item</span>
+				<span class="cart-name">Name</span>
+				<span class="cart-price">Price</span>
+				<span class="cart-quantity">Quantity</span>
+			</div>
+			<div class="cart-items">
+				
+			</div>
+		</div>
+		<!-- <div><span id="total-text">Total: </span><div class="total"></div></div> -->
+		<div class="continue-shopping">
+			<button id="btn-continue">Continue Shopping</button>
+			<button id="btn-checkout">Check Out</button>
+		</div>
+		</div>	
+			
+			
+			
+			
+		<!-- </section> -->
+		<section class="feartured-categories">
+			<div class="container-product">
+				<div class="row">
+					<span class="col">
+						<img src="./img/main1.png">
+					</span>
+					<span class="col">
+						<img src="./img/main2.png">
+					</span>
+					<span class="col">
+						<img src="./img/main3.png">
+					</span>
+				</div>
+			</div>
+		</section>
+	
+		
+		
+		<!-- <div class="content"> -->
+			
+		<!-- </div> -->
+		<br>
+		<br>
+	<footer class="foot">
+		<p>Copyright &copy; 2019 CHRIS_TN_1831187&nbsp;</p>
+		<p>
+			<a href="https://www.facebook.com/"><i class="fab fa-facebook-f" href="#"></i></a>&nbsp;
+			<a href="https://www.instagram.com/"><i class="fab fa-instagram" href="#"></i></a>&nbsp;
+			<a href="https://twitter.com/"><i class="fab fa-twitter" href="#"></i></a>
+		</p>
+		
+	</footer>
+  <script src="./js/main_shopping.js"></script>
+	</body>
+	
+</html>

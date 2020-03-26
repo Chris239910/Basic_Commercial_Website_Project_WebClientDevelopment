@@ -1,0 +1,178 @@
+
+body{
+	background: #eee;
+	color: #555;
+	font-family: Arial, Helvetica, sans-rerif;
+	font-size: 16px;
+	font-weight: normal;
+	margin: 0;
+}
+.top{
+	border: 1px solid  #85adad;
+	background:  #85adad;
+	text-align: center;
+	overflow: hidden;
+}
+/* #search_place{ */
+	/* /* width: 30%; */ */
+	/* /* height: 60%; */ */
+	/* border: 1px solid #e5e5e5; */
+    /* float:center; */
+    /* height:17px; */
+    /* outline:0; */
+    /* width:30%; */
+/* } */
+
+/* .search-form input{ */
+	/* width: 60%; */
+	/* height: 20%; */
+/* } */
+.top img{
+	float: left;
+	width: 6%;
+	height: 6%;
+}
+.top form{
+	margin: 20px auto;
+}
+.top input[type="text"]{
+	height: 25px;
+	width: 400px;
+}
+.top button{
+	border: none;
+	background-color: #476b6b;
+	color: #fff;
+	height: 30px;
+	padding: 0 20px;
+	
+}
+.top i{
+	
+}
+.cart{
+	display: inline;
+}
+.main{
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-auto-rows: minmax(100px, 300px);
+	grid-gap: 1em;
+	justify-items: stretch;
+	align-items: stretch;
+}
+#main-footer{
+	background: #85adad;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+	margin-top: 15px;
+}
+#main-footer p{
+	padding-top: 10px;
+}
+#main-footer p i{
+	margin-top: 0;
+	padding: 10px;
+}
+#main-footer a{
+	color: white;
+}
+#logo{
+	width: 6%;
+	height: 6%;
+	margin-left: 3%;
+	float: left;
+}
+#nav-bar{
+	background-color: #a3c2c2;
+	color:  #476b6b;
+	text-align: center;
+}
+#nav-bar ul{
+	padding: 5px;
+	list-style: none;
+	margin: 0;
+}
+#nav-bar li{
+	display: inline;
+}
+#nav-bar a{
+	color: #476b6b;
+	text-decoration: none;
+	font-size: 22px;
+	padding-right: 30px;
+	font-family: sans-rerif;
+}
+#nav-bar ul li a:hover{
+	color: #8585ad; 
+	
+}
+#nav-bar ul li i{
+	width: 30px;
+	height: 30px;	
+}
+#nav-bar ul li a#active{
+	color:  #52527a;
+	font-weight: bold;
+}
+#main-pic{
+	grid-column: 1/4;
+	grid-row: 1/2;
+	
+	width: 100%;
+	height: 650px;
+	background-image: url("../img/011.png");
+	/* color: #ff3300; */
+}
+#main-pic h1{
+	position: absolute;
+	font-family: Rage Italic;
+	color: #008080;
+	
+}
+#main-pic h1{
+	font-size: 35px;
+	padding-left: 10px;
+}
+#grid-pic{
+	grid-column: 1/2;
+	grid-row: 2/3;
+	margin: 30px;
+	/* width: 100px; */
+	/* height: 200px; */
+}
+#quote1{
+	grid-column: 2/3;
+	grid-row: 3;
+	padding: 15px;
+}
+#video{
+	grid-column: 2/4;
+	grid-row: 4;
+
+}
+#video iframe{
+	width: 500px;
+	height: 300px;
+}
+.noti{
+	display: none;
+}
+.cart:hover span:nth-child(2){
+	display: block;
+	color: #00264d;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
